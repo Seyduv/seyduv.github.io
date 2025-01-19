@@ -43,6 +43,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--clr-emerald);
 }
 
 .not-working {
