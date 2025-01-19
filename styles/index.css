@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Beiruti:wght@200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-dark: rgb(45, 45, 45);
+    --bg-light: white;
+    
+    --clr-emerald: #50C878;
+    --clr-fg: black;
+    --clf-dark-fg: var(--clr-emerald);
+}
+
+@font-face {
+    font-family: 'Diwani';
+    src: url(../font/Diwani\ Letter\ Regular.ttf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-light);
+    color: var(--clr-fg);
+    font-family: "Beiruti", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    overflow-x: unset;
+}
+
+.container {
+    height: 100vh;
+    width: calc(100vw - 20px);
+}
+
+.arabic {
+    font-family: "Amiri", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.not-working {
+    color: red;
+}
+
+.title-container {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Diwani', sans-serif;
+    font-size: 75px;
+}
+
+.section-title, .subsection-title {
+    font-size: 40px;
+}
+
+.section-par, .subsection-par {
+    font-size: 30px
+}
+
+.subsection {
+    margin-top: 25px;
+    display: flex;
+}
+
+.sidesection {
+    color: var(--bg-light);
+    background: #50C878;
+    width: 30vw;
+}
+
+.subsection-picture {
+    width: 100%;
+}
+
+.subsection-par {
+    padding-left: 25px;
+    width: 70vw;
+}
