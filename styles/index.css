@@ -86,3 +86,8 @@ a {
     padding-left: 25px;
     width: 70vw;
 }
+
+.unit_flag {
+    height: 30px;
+    width: 40px;
+}
