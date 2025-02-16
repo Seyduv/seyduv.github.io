@@ -18,6 +18,11 @@
     src: url(../font/Diwani\ Letter\ Regular.ttf)
 }
 
+@font-face {
+    font-family: 'Thuluth';
+    src: url(../font/Gandhara\ Suls\ Regular.ttf)
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -32,7 +37,8 @@ body {
 
 .container {
     height: 100vh;
-    width: calc(100vw - 20px);
+    width: calc(100vw - 395px);
+    overflow-x: none;
 }
 
 .arabic {
@@ -59,6 +65,11 @@ a {
     font-size: 75px;
 }
 
+.encyclopedia .title {
+    font-family: 'Thuluth', sans-serif;
+    font-size: 50px;
+}
+
 .section-title, .subsection-title {
     font-size: 40px;
 }
@@ -68,7 +79,7 @@ a {
 }
 
 .subsection {
-    margin-top: 25px;
+    margin-top: 75px;
     display: flex;
 }
 
@@ -88,6 +99,73 @@ a {
 }
 
 .unit_flag {
-    height: 30px;
-    width: 40px;
+    height: 25px;
+    width: 50px;
+}
+
+.imgs-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    gap: 5px;
+}
+
+.image {
+    height: 375px;
+    width: 300px;
+}
+
+.image > img {
+    height: 350px;
+    width: 300px;
+}
+
+.image h5 {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    background: #50C878;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.sidebar-flag {
+    height: 150px;
+    width: 250px;
+}
+
+.sidebar-flag-circle {
+    height: 150px;
+    width: 150px;
+}
+
+.sidebar-icon-small {
+    height: 25px;
+    width: 30px;
+}
+
+.sidebar-flag-small {
+    height: 15px;
+    width: 30px;
+}
+
+.sidebar table {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.song p {
+    font-size: 30px;
 }
